@@ -17,7 +17,7 @@ alias gb="git branch"
 alias gba="git branch -a"
 
 # Programs
-alias yiic='/home/justb/public_html/yii/framework/yiic'
+alias yiic='/home/justb/public_html/yii-1.1.8/framework/yiic'
 alias von='sudo vbetool dpms on'
 alias voff='sudo vbetool dpms off'
 alias setrvm='rvm 1.9.2@rails301'
