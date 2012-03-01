@@ -22,5 +22,6 @@ alias von='sudo vbetool dpms on'
 alias voff='sudo vbetool dpms off'
 alias setrvm='rvm 1.9.2@rails301'
 alias mysqls='sudo /etc/rc.d/mysqld' #mysqls start/stop/restart starts/stops/restarts mysql
-alias apache='sudo /etc/rc.d/httpd' #apache start/stop/restart starts/stops/restarts apache
+alias apache='sudo service apache2' #apache start/stop/restart starts/stops/restarts apache
 alias memcheck='valgrind --tool=memcheck'
+alias samsung='xrandr --output VGA-0 --auto --left-of LVDS'
