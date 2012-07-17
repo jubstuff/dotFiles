@@ -19,7 +19,7 @@ alias ga="git add -A . && git commit"
 alias gh="git log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short"
 
 # Programs
-alias yiic='/home/justb/public_html/yii-1.1.10/framework/yiic'
+alias yiic='/home/justb/www/yii-1.1.10/framework/yiic'
 alias von='sudo vbetool dpms on'
 alias voff='sudo vbetool dpms off'
 alias setrvm='rvm 1.9.2@rails301'
