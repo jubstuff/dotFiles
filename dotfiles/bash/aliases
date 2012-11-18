@@ -15,8 +15,9 @@ alias grep='grep --color=auto'
 alias g="git status"
 alias gb="git branch"
 alias gba="git branch -a"
-alias ga="git add -A . && git commit"
+alias ga="git add "
 alias gh="git log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short"
+alias go="git checkout "
 
 # Programs
 alias yiic='/home/justb/www/yii-1.1.10/framework/yiic'
