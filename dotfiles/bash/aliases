@@ -20,7 +20,6 @@ alias gh="git log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short"
 alias go="git checkout "
 
 # Programs
-alias yiic='/home/justb/www/yii-1.1.10/framework/yiic'
 alias von='sudo vbetool dpms on'
 alias voff='sudo vbetool dpms off'
 alias mysqls='sudo /etc/rc.d/mysqld' #mysqls start/stop/restart starts/stops/restarts mysql
