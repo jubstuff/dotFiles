@@ -1,6 +1,7 @@
 export GREP_COLOR="1;33"
 export TERM=xterm-256color
 export EDITOR="vim"
+export GIT_PS1_SHOWDIRTYSTATE=1
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 

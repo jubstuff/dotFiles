@@ -72,4 +72,6 @@ On_ICyan='\e[0;106m'    # Cyan
 On_IWhite='\e[0;107m'   # White#=Colors=
 
 #=Prompt=
-PS1="\[$IBlue\]\u:\w\[\e[0m\] \n⇒ "
+#PS1="\[$IBlue\]\u:\w\[\e[0m\] $(__git_ps1) \n⇒ "
+#PS1="\[$IBlue\]\u:\w\[\e[0m\] \n⇒ "
+PS1='\[\e[0;94m\]\u:\w\[\e[0m\] $(__git_ps1 " (%s)")\n⇒ '
