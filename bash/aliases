@@ -1,0 +1,39 @@
+#!/bin/bash
+#
+#
+
+# filesystem
+alias ls='ls --color=auto'
+alias ll='ls -alFh'
+alias l="ls -laGh"
+alias ..="cd .."
+alias ...="cd ../.."
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -I'   # 'rm -i' prompts for every file
+alias ln='ln -i'
+alias chown='chown --preserve-root'
+alias chmod='chmod --preserve-root'
+alias chgrp='chgrp --preserve-root'
+
+# helpers
+alias grep='grep --color=auto'
+alias ip='ifconfig | grep "inet "'              # quickly print ip address
+alias disks='df -H -l'                          # show available disk space
+alias size='du -sh'                             # get folder size
+alias sizer='du -h -c'                          # get and print folder size for all folders, recursively
+
+
+# Git
+alias g="git status"
+alias gb="git branch -va"
+alias ga="git add -A"
+alias gc='git commit -m'
+alias gh="git log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short"
+alias go="git checkout "
+
+# folders
+alias code='cd ~/code'
+
+# Programs
+alias memcheck='valgrind --tool=memcheck'
